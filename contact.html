@@ -1,0 +1,275 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact Us</title>
+		
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/social-icons.css" type="text/css" media="screen" />
+		<!-- ENDS CSS -->	
+		
+		<!--[if IE]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<!-- ENDS JS -->
+		
+		<!-- JS -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/custom.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+		<script src="js/slides/source/slides.min.jquery.js"></script>
+		<script src="js/quicksand.js"></script>
+		
+		<!-- superfish -->
+		<link rel="stylesheet" media="screen" href="css/superfish.css" /> 
+		<script type="text/javascript" src="js/superfish-1.4.8/js/hoverIntent.js"></script>
+		<script type="text/javascript" src="js/superfish-1.4.8/js/superfish.js"></script>
+		<script type="text/javascript" src="js/superfish-1.4.8/js/supersubs.js"></script>
+		<!-- ENDS superfish -->
+
+		<!-- poshytip -->
+		<link rel="stylesheet" href="js/poshytip-1.0/src/tip-twitter/tip-twitter.css" type="text/css" />
+		<link rel="stylesheet" href="js/poshytip-1.0/src/tip-yellowsimple/tip-yellowsimple.css" type="text/css" />
+		<script type="text/javascript" src="js/poshytip-1.0/src/jquery.poshytip.min.js"></script>
+		<!-- ENDS poshytip -->
+		
+		<!-- Tweet -->
+		<link rel="stylesheet" href="css/jquery.tweet.css" media="all"  type="text/css"/> 
+		<script src="js/tweet/jquery.tweet.js" type="text/javascript"></script> 
+		<!-- ENDS Tweet -->
+		
+		<!-- prettyPhoto -->
+		<script type="text/javascript" src="js/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+		<link rel="stylesheet" href="js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen" />
+		<!-- ENDS prettyPhoto -->
+		
+		<!-- GOOGLE FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+	
+		<!-- Dynamic Background -->
+		<div id="headerimgs">
+			<div id="headerimg1" class="headerimg"></div>
+			<div id="headerimg2" class="headerimg"></div>
+		</div>
+		<!-- ENDS Dynamic Background -->
+		
+		<!-- background nav -->
+		<div id="headernav">
+			<div id="back" class="btn"></div>
+			<div id="next" class="btn"></div>
+		</div>
+		<!-- ENDS background nav -->
+		
+		<div id="top-gap"></div>
+
+		<!-- wrapper -->
+		<div class="wrapper">
+		
+			<a href="index.html"><img  id="logo" src="img/logo.png" alt="Kroft"></a>
+			
+			
+			<!-- nav bar holder -->
+			<div id="nav-bar-holder">
+				<!-- Navigation -->
+				<ul id="nav" class="sf-menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="fasilitas.html">Fasilitas</a>
+						<ul>
+                        	<li><a href="fasilitas-air.html">Atraksi Air</a></li>
+                            <li><a href="fasilitas-main.html">Wahana Bermain</a></li>
+                            <li><a href="fasilitas-leuit.html">Kampung Leuit</a></li>
+                            <li><a href="fasilitas-fo.html">Factory Outlet</a></li>
+                            <li><a href="fasilitas-food.html">Restaurant</a></li>
+                            <li><a href="fasilitas-lain.html">Fasilitas Tambahan</a></li>
+                        </ul>
+					</li>
+					<li><a href="reservasi.html">Tiket & Reservasi</a></li>
+					<li class="current-menu-item"><a href="contact.html">Contact Us</a></li>
+				</ul>
+				<!-- ENDS Navigation -->
+				
+
+			</div>
+			<!-- ENDS nav bar holder -->
+				
+			<!-- content wrap -->	    	
+	        <div id="content-wrap">
+	        	
+	        	<!-- Page wrap -->
+	        	<div id="page-wrap">
+	        	
+					<div class="page-title"><h1>Contact</h1> <span>Where and how to get in touch</span></div>
+					
+					<!-- side content -->
+					<div id="side-content">
+
+						<h4>Float Market Lembang</h4>
+						
+						<p>Untuk informasi lebih lanjut bisa menghubungi :<br>
+						Phone : 022-70888881/708888802<br>
+						Mobile : 085222383092/087821962248<br>
+<br>
+Atau mengirim email melalui form berikut :<br>
+
+						
+					
+						
+						<h2 class="title-divider">Contact form</h2>			
+						<!-- form -->
+						<script type="text/javascript" src="js/form-validation.js"></script>
+						<form id="contactForm" action="#" method="post">
+							<fieldset>
+								<div>
+									<input name="name"  id="name" type="text" class="form-poshytip" title="Enter your full name" />
+									<label>Name</label>
+								</div>
+								<div>
+									<input name="email"  id="email" type="text" class="form-poshytip" title="Enter your email address" />
+									<label>Email</label>
+								</div>
+								<div>
+									
+									<input name="web"  id="web" type="text" class="form-poshytip" title="Enter your website" />
+									<label>Website</label>
+								</div>
+								<div>
+									<textarea  name="comments"  id="comments" rows="5" cols="20" class="form-poshytip" title="Enter your comments"></textarea>
+								</div>
+								
+								<!-- send mail configuration -->
+								<input type="hidden" value="luis@luiszuno.com" name="to" id="to" />
+								<input type="hidden" value="ENter the subject here" name="subject" id="subject" />
+								<input type="hidden" value="send-mail.php" name="sendMailUrl" id="sendMailUrl" />
+								<!-- ENDS send mail configuration -->
+								
+								<p><input type="button" value="Send" name="submit" id="submit" /> <span id="error" class="warning">Message</span></p>
+							</fieldset>
+							
+						</form>
+						<p id="success" class="success">Form data sent. Thanks for your comments.</p>
+						<!-- ENDS form -->
+				
+									
+						
+					</div>
+					<!-- ENDS side content -->
+
+
+
+						
+															
+					
+					<!-- sidebar -->
+					<div id="sidebar">
+						<h4>Location map</h4>
+						<!-- Google map -->
+						
+						<!-- GOOGLE MAPS -->
+						<script type="text/javascript" src="http://www.google.com/jsapi?key=AIzaSyCHjivweMU3ZCedry1-rkN4Dxlicts-JEE" ></script>
+						<script type="text/javascript" >google.load("maps","2.x");</script>
+						
+						<script type="text/javascript">
+							
+							jQuery(document).ready(function($) {
+							
+							//##########################################
+							// Google maps
+							//##########################################
+							
+							// You can get the latitud and Longitude values at http://itouchmap.com/latlong.html
+							
+							var latitude = -6.816197;
+							var longitude = 107.619675;
+							
+							// center map
+							var map = new GMap2(document.getElementById("map")); 
+							var point = new GLatLng(latitude, longitude); 
+							map.setCenter(point, 16);
+							
+							// Set marker
+							marker = new GMarker(point); 
+							map.addOverlay(marker);
+							
+							// controls
+							map.addControl(new GLargeMapControl());
+							
+							});
+						</script>
+						<!-- ENDS GOOGLE MAPS -->
+		
+		
+						<div id="map"></div>
+						<!-- ENDS Google map -->
+						
+						
+						<h4>Address</h4>
+						<p>Jl. Grand Hotel Lembang No. 33 E, Bandung<br/>
+							Jawa Barat Indonesia<br/>
+							Zip Code 40391<br/>
+							Tel. (62) 70888881/708888802, (62) 85222383092/87821962248<br/>
+						</p>
+						
+						
+					</div>
+					<!-- ENDS sidebar -->
+					
+					<div class="clear"></div>
+	        	
+	        	</div>
+	        	<!-- ENDS Page wrap -->
+	        	
+	        </div>
+	        <!-- ENDS content wrap -->
+	        
+        </div>
+		<!-- ENDS Wrapper -->
+		
+		<!-- FOOTER -->
+		<div id="footer">
+			<div class="footer-wrapper">
+				
+				
+				<!-- footer-cols -->
+				<ul id="footer-cols">
+					<li>
+					<h6 align="justify">About Float Market</h6>Lembang Floating Market, especially designed as water recreation park with unique culinary and shopping adventures. <br>
+<br>
+Total Visitor : <iframe src="counter.php" scrolling="no"></iframe>
+					</li>
+					<li>
+						<h6>Location</h6>
+                        <p>Jl. Grand Hotel Lembang No. 33 E, Bandung, Indonesia 40391</p>
+<div style="width:250px;height:250px"><iframe width="250" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Jl.%2BGrand%2BHotel%2BLembang%2BNo.%2B33%2BE%2C%2BBandung%2C%2BIndonesia%2B40391&ie=UTF8&z=15&t=m&iwloc=near&output=embed"></iframe><br><table width="250" cellpadding="0" cellspacing="0" border="0"><tr><td align="left"><small><a href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Jl.%2BGrand%2BHotel%2BLembang%2BNo.%2B33%2BE%2C%2BBandung%2C%2BIndonesia%2B40391&ie=UTF8&z=15&t=m&iwloc=near">View Larger Map</a></small></td><td align="right"><small><a href="http://www.embedgooglemap.com">embed google map</a></small></td></tr></table></div>
+					</li>
+					<li>
+						<div id="tweets" class="footer-col tweet">
+	         				<h6>Social Media</h6>
+
+				<!-- Social -->
+				<ul class="social">
+					<li><a href="https://www.facebook.com/FloatingMarketLembang" class="poshytip  facebook" title="Become a fan"></a></li>
+					<li><a href="https://twitter.com/LembangFloMart" class="poshytip  twitter" title="Follow my tweets"></a></li>
+				</ul>
+				<!-- ENDS Social -->
+
+	         			</div>
+					</li>
+				</ul>
+				<!-- ENDS footer-cols -->
+				
+				<div id="footer-glare"></div>
+				
+			</div>
+		</div>
+
+		<!-- ENDS footer-bottom -->
+
+
+		
+	</body>
+</html>
